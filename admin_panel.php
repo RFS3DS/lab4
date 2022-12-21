@@ -22,12 +22,12 @@
 				echo '</form>';
 			}
 			?>
-			<form action="monitor.php" method="post">
-				<button class="btn btn-light" type="submit"> Мониторинг </button>
+			<form action="readers.php" method="post">
+				<button class="btn btn-light" type="submit"> Читатели </button>
 			</form>
 <?php if ($_COOKIE['user'] != "Администратор") { ?>
 			<form action="settings.php" method="post">
-				<button class="btn btn-light" type="submit"> Настройки </button>
+				<button class="btn btn-light" type="submit"> Выдать </button>
 			</form>
 <?php } ?>
 			<form action="exit.php" method="post">

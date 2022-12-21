@@ -22,15 +22,15 @@
 				echo '</form>';
 			}
 			?>
-			<form action="monitor.php" method="post">
-				<button class="btn btn-light" type="submit"> Мониторинг </button>
+			<form action="readers.php" method="post">
+				<button class="btn btn-light" type="submit"> Читатели </button>
 			</form>
 			<form action="join_book.php" method="post">
-				<button class="btn btn-light" type="submit"> Чат </button>
+				<button class="btn btn-light" type="submit"> Книги </button>
 			</form>
 <?php if ($_COOKIE['user'] != "Администратор") { ?>
 			<form action="settings.php" method="post">
-				<button class="btn btn-light" type="submit"> Настройки </button>
+				<button class="btn btn-light" type="submit"> Выдать </button>
 			</form>
 <?php } ?>
 			<form action="exit.php" method="post">
@@ -45,7 +45,7 @@
 		<div class="col-1">
 		</div>
 		<div class="col-10">
-		<h1 class="display-4"> Добро пожаловать на сайт мониторинга серверов и технической поддержки пользователей. </h1>
+		<h1 class="display-4"> Добро пожаловать на сайт библиотеки. </h1>
 		</div>
 	</div>
 	<br>
@@ -53,7 +53,7 @@
 		<div class="col-1">
 		</div>
 		<div class="col-10">
-		<h3> Для начала перейдите во вкладку "Настройки" для регистрации своего сервера </h3>
+		<h3> Перейдите во вкладку "Выдать" для записи на выдачу Книги </h3>
 		</div>
 		<div class="col-1">
 		</div>

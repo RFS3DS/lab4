@@ -24,13 +24,13 @@
 			}
 			?>
 			<form action="logged.php" method="post">
-				<button class="btn btn-light" type="submit"> Мониторинг </button>
+				<button class="btn btn-light" type="submit"> Читатели </button>
 			</form>
 			<form action="join_book.php" method="post">
-				<button class="btn btn-light" type="submit"> Чат </button>
+				<button class="btn btn-light" type="submit"> Книги </button>
 			</form>
 			<form action="settings.php" method="post">
-				<button class="btn btn-light" type="submit"> Настройки </button>
+				<button class="btn btn-light" type="submit"> Выдать </button>
 			</form>
 			<form action="exit.php" method="post">
 				<button class="btn btn-light" type="submit"> Выход </button>

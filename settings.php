@@ -22,15 +22,15 @@
 				echo '</form>';
 			}
 			?>
-			<form action="monitor.php" method="post">
-				<button class="btn btn-light" type="submit"> Мониторинг </button>
+			<form action="readers.php" method="post">
+				<button class="btn btn-light" type="submit"> Читатели </button>
 			</form>
 			<form action="join_book.php" method="post">
-				<button class="btn btn-light" type="submit"> Чат </button>
+				<button class="btn btn-light" type="submit"> Книги </button>
 			</form>
 <?php if ($_COOKIE['user'] != "Администратор") { ?>
 			<form action="settings.php" method="post">
-				<button class="btn btn-light" type="submit"> Настройки </button>
+				<button class="btn btn-light" type="submit"> Выдать </button>
 			</form>
 <?php } ?>
 			<form action="exit.php" method="post">
@@ -58,7 +58,7 @@ if ($_COOKIE['user'] != "Администратор") {
 		<div class="col-1">
 		</div>
 		<div class="col-4">
-			<form action="new_server.php" method="post">
+			<form action="new_log_taking.php" method="post">
 <?php
 	$host    = 'localhost';  
   	$user    = 'root';    

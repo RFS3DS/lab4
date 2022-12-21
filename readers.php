@@ -22,15 +22,15 @@
 				echo '</form>';
 			}
 			?>
-			<form action="monitor.php" method="post">
-				<button class="btn btn-light" type="submit"> Мониторинг </button>
+			<form action="readers.php" method="post">
+				<button class="btn btn-light" type="submit"> Читатели </button>
 			</form>
 			<form action="join_book.php" method="post">
-				<button class="btn btn-light" type="submit"> Чат </button>
+				<button class="btn btn-light" type="submit"> Книги </button>
 			</form>
 <?php if ($_COOKIE['user'] != "Администратор") { ?>
 			<form action="settings.php" method="post">
-				<button class="btn btn-light" type="submit"> Настройки </button>
+				<button class="btn btn-light" type="submit"> Выдать </button>
 			</form>
 <?php } ?>
 			<form action="exit.php" method="post">
@@ -63,7 +63,7 @@
 						    }
 						echo '</select>';
 						echo '<br>';
-						echo '<button class="btn btn-outline-success">Использовать этот сервер</button>';
+						echo '<button class="btn btn-outline-success">111</button>';
 					echo '</form>';
 
 					mysqli_close($mysql);
